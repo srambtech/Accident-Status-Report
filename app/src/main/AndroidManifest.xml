@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.it.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="ASR"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="Acccident Status Report" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/logo"
+            android:label="Accident Status Report" >
+        </activity>
+        <activity
+            android:name=".NextActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_next" >
+        </activity>
+        <activity
+            android:name=".Archive"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_archive" >
+        </activity>
+        <activity
+            android:name=".MyCalendar"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_my_calendar" >
+        </activity>
+        <activity
+            android:name=".VehiclesDetails"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_vehicles_details" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Attachments"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_attachments" >
+        </activity>
+        <activity
+            android:name=".Preview"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_preview" >
+        </activity>
+        <activity
+            android:name=".MiniReport"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_mini_report" >
+        </activity>
+        <activity
+            android:name=".VideoImage"
+            android:icon="@drawable/logo"
+            android:label="ASR" >
+        </activity>
+        <activity
+            android:name=".UploadFiles"
+            android:icon="@drawable/logo"
+            android:label="ASR" >
+        </activity>
+        <activity
+            android:name=".UploadImages"
+            android:icon="@drawable/logo"
+            android:label="ASR" >
+        </activity>
+        <activity
+            android:name=".ViewImages"
+            android:icon="@drawable/logo"
+            android:label="ASR" >
+        </activity>
+        <activity
+            android:name=".UploadGPS"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_upload_gps" >
+        </activity>
+        <activity
+            android:name=".More_than_2"
+            android:label="@string/title_activity_more_than_2" >
+        </activity>
+        <activity
+            android:name=".Less_than_3"
+            android:label="@string/title_activity_less_than_3" >
+        </activity>
+        <activity
+            android:name=".UploadActivity"
+            android:label="@string/title_activity_upload" >
+        </activity>
+        <activity
+            android:name=".UploadActivity2"
+            android:label="@string/title_activity_upload2" >
+        </activity>
+        <activity
+            android:name=".UploadVideo"
+            android:label="@string/title_activity_upload_video" >
+        </activity>
+        <activity
+            android:name=".UploadActivity1"
+            android:label="@string/title_activity_upload1" >
+        </activity>
+        <activity
+            android:name=".GetCurrentGPSLocation"
+            android:label="@string/title_activity_get_current_gpslocation" >
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" >
+        </activity>
+    </application>
+
+</manifest>

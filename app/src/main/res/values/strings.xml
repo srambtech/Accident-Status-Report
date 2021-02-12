@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">ASR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="utype">
+        <item>Motor Vehicle Inspector</item>
+        <item>Commissioner</item>
+    </string-array>
+    <string-array name="city">
+        <item>Ariyalur</item>
+        <item>Coimbatore</item>
+        <item>Karur</item>
+        <item>Madurai</item>
+        <item>Salem</item>
+        <item>Tiruchirapalli</item>
+        <item>Perambalur</item>
+        <item>Thanjavur</item>
+        <item>Thiruvarur</item>
+        <item>Nagapattinam</item>
+        <item>Pudukkottai</item>
+        <item>Tuticorin</item>
+        <item>Tirunelveli</item>
+        <item>Kanyakumari</item>
+        <item>Virudhunagar</item>
+        <item>Sivagangai</item>
+        <item>Ramanathapuram</item>
+        <item>Villupuram</item>
+    </string-array>
+    <string-array name="ari">
+        <item>Ariyalur(R.T.O)</item>
+
+    </string-array>
+    <string-array name="pera">
+        <item>Permabalur(R.T.O)</item>
+
+    </string-array>
+
+    <string-array name="cbe">
+        <item>Coimbatore(South)(R.T.O)</item>
+        <item>Coimbatore(West)(R.T.O)</item>
+        <item>Coimbatore(North)(R.T.O)</item>
+        <item>Coimbatore(Central)(R.T.O)</item>
+        <item>Mettupalayam(R.T.O)</item>
+        <item>Pollachi(R.T.O)</item>
+        <item>Sulur(U.0)</item>
+        <item>Valparai(U.O)</item>
+    </string-array>
+    <string-array name="krr">
+        <item>Aravakurichi(U.O)</item>
+        <item>Karur(R.T.O)</item>
+        <item>kulithalai(U.O)</item>
+        <item>Manmangalam(U.O)</item>
+    </string-array>
+    <string-array name="mri">
+        <item>Melur</item>
+        <item>Thirumangalam</item>
+        <item>Usilambati</item>
+        <item>Vadipatti</item>
+    </string-array>
+    <string-array name="slm">
+        <item>Athur</item>
+        <item>Mettur</item>
+        <item>Omalur</item>
+    </string-array>
+    <string-array name="ty">
+        <item>Lalgudi(U.O)</item>
+        <item>Musiri(U.O)</item>
+        <item>Srirangam(R.T.O)</item>
+        <item>Thuraiyur(U.O)</item>
+        <item>Thiruverumbur(U.O)</item>
+        <item>Tiruchirapalli(East)(R.T.O)</item>
+        <item>Manapparai(U.O)</item>
+        <item>Tiruchirapalli(West)(R.T.O)</item>
+
+
+    </string-array>
+    <string-array name="than">
+        <item>Pattukottai(U.O)</item>
+        <item>Thanjavur(R.T.O)</item>
+        <item>Kumbakonam(R.T.O)</item>
+    </string-array>
+    <string-array name="thir">
+        <item>Thiruvarur(R.T.O)</item>
+        <item>Mannargudi(U.O)</item>
+        <item>Thiruthuraipoondi(U.O)</item>
+    </string-array>
+    <string-array name="naga">
+        <item>Nagapattinam(R.T.O)</item>
+        <item>Sirkali(U.O)</item>
+        <item>Mayiladudurai(R.T.O)</item>
+
+    </string-array>
+    <string-array name="pudu">
+        <item>Pudukkottai(R.T.O)</item>
+        <item>Illuppur(U.O)</item>
+        <item>Aranthangi(U.O)</item>
+
+    </string-array>
+    <string-array name="tuti">
+        <item>Tuticorin(R.T.O)</item>
+        <item>Tiruchendur(U.O)</item>
+        <item>Kovilpatti(U.O)</item>
+
+    </string-array>
+    <string-array name="tiru">
+        <item>Tirunelveli(R.T.O)</item>
+        <item>Vallioor(U.O)</item>
+        <item>Ambasamuthiram(U.O)</item>
+        <item>Tenkasi(R.T.O)</item>
+        <item>Sankarankoil(R.T.O)</item>
+
+    </string-array>
+    <string-array name="kany">
+        <item>Nagercoil(R.T.O)</item>
+        <item>Marthandam(R.T.O)</item>
+    </string-array>
+    <string-array name="siva">
+        <item>Karaikudi(U.O)</item>
+        <item>Sivangangai(R.T.O)</item>
+    </string-array>
+    <string-array name="rama">
+        <item>Ramanathapuram(R.T.O)</item>
+        <item>Paramakudi(U.O)</item>
+
+    </string-array>
+    <string-array name="virud">
+        <item>Srivilliputhur(R.T.O)</item>
+        <item>Aruppukottai(U.O)</item>
+        <item>Sivakasi(U.O)</item>
+        <item>Virudhunagar(R.T.O)</item>
+    </string-array>
+    <string-array name="vill">
+        <item>Gingee(U.O)</item>
+        <item>Tindivanam(R.T.O)</item>
+        <item>Kallakurichi(U.O)</item>
+        <item>Ulundurpet(U.O)</item>
+        <item>Villupuram(R.T.O)</item>
+
+    </string-array>
+
+
+    <string-array name="ipcno">
+        <item>279</item>
+        <item>337</item>
+        <item>338</item>
+        <item>304 A</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="nacc">
+        <item>Fatal</item>
+        <item>Grievous</item>
+        <item>Minor H</item>
+        <item>Minor NH</item>
+    </string-array>
+    <string-array name="y"><item>Yes</item>
+        <item>No</item></string-array>
+<string-array name="ttype">
+    <item>Transport</item>
+    <item>Non-Transport</item>
+
+</string-array>
+    <string-array name="c">
+        <item>Motor cycle without gear</item>
+        <item>Motor cycle with gear</item>
+        <item>Invalid carriage</item>
+        <item>Light Motor Vehicle</item>
+        <item>Medium Goods vehicle</item>
+        <item>Medium passenger vehicle</item>
+        <item>Transport Vehicle</item>
+        <item>Heavy goods vehicle</item>
+        <item>Heavy Passenger vehicle</item>
+        <item>Road roller</item>
+        <item>Motor vehicle of specified description</item>
+    </string-array>
+    <string-array name="typ">
+        <item>Transport</item>
+        <item>Non-transport</item>
+    </string-array>
+    <string-array name="gen">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="inj">
+        <item>Fatal Injury</item>
+        <item>Grevious Injury</item>
+        <item>Minor Injury</item>
+        <item>Major Injury</item>
+    </string-array>
+    <string-array name="error">
+        <item>None</item>
+        <item>Consumption of Alcohol or Drug</item>
+        <item>Exceed lawful speed</item>
+        <item>Followed too closely</item>
+        <item>Over took on hill</item>
+        <item>Over took on curve</item>
+    </string-array>
+    <string-array name="sp">
+        <item>Front Seat</item>
+        <item>Rear Seat</item>
+        <item>Pillion Reader</item>
+        <item>Bus Passenger</item>
+        <item>Bus Track or Pick up</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="pa">
+        <item>Sitting</item>
+        <item>Standing</item>
+        <item>Boarding</item>
+        <item>Alighting</item>
+        <item>Falling</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="su">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="ap">
+        <item>On Pedestrian Crossing</item>
+        <item>With in 50m of Pedestrain crossing</item>
+        <item>On Traffic Island</item>
+        <item>In Centre of Road(not on Pedestrain cross)</item>
+        <item>On Footpath</item>
+        <item>On Shoulder</item>
+        <item>Others</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="vd">
+        <item>No Damage</item>
+        <item>Multiple Damage</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="op">
+        <item>Mechanical Defect</item>
+        <item>Not due to Mechanical Defect</item>
+    </string-array>
+    <string-array name="stvt">
+        <item>Ambulance</item>
+        <item>Aurticulated Vehicle</item>
+        <item>Auto Rickshaw</item>
+        <item>Call Taxi</item>
+        <item>Educational Institution Vehicle</item>
+        <item>Goods Carriage</item>
+        <item>Hazardous Nature Carriage</item>
+        <item>Maxi Cab</item>
+        <item>Metr Taxi</item>
+        <item>Mini Bus</item>
+        <item>Omni Bus</item>
+        <item>Private Service Vehicle</item>
+        <item>Share Auto</item>
+        <item>School Bus</item>
+        <item>Stage Carriage</item>
+        <item>Tourist Taxi</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ssct">
+        <item>Mofussil</item>
+        <item>Town</item>
+    </string-array>
+
+    <string-array name="smof">
+        <item>STU</item>
+        <item>Private</item>
+    </string-array>
+
+
+    <string-array name="snvt">
+        <item>Agricultural Tractor</item>
+        <item>Animal Drawn Vehicle</item>
+        <item>Battery Operated Vehicle</item>
+        <item>Bicycle</item>
+        <item>Car</item>
+        <item>Hand Drawn Vehicle</item>
+        <item>Jeep</item>
+        <item>Moped</item>
+        <item>Motor cycle</item>
+        <item>Scooter</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="man">
+        <item>Turning right</item>
+        <item>Turning left</item>
+        <item>Making U turn</item>
+        <item>Temporarily held up</item>
+        <item>Parked</item>
+        <item>Sudden stop</item>
+        <item>Sudden start</item>
+        <item>Overtaking from left</item>
+        <item>Starting from near side</item>
+        <item>Starting from off-side</item>
+        <item>Reversing</item>
+        <item>Over took on curve</item>
+
+    </string-array>
+
+    <string name="title_activity_next">ASR</string>
+    <string name="title_activity_archive">ASR</string>
+    <string name="title_activity_my_calendar">ASR</string>
+    <string name="title_activity_accident_details">ASR</string>
+    <string name="title_activity_acc_details">ASR</string>
+    <string name="title_activity_vehicles_details">ASR</string>
+    <string name="title_activity_vehicle_driver_details">ASR</string>
+    <string name="title_activity_vehicle2">ASR</string>
+    <string name="title_activity_vehicle3">ASR</string>
+    <string name="title_activity_vehicle4">ASR</string>
+    <string name="title_activity_injured">ASR</string>
+    <string name="title_activity_feed_back">ASR</string>
+    <string name="title_activity_maps">ASR</string>
+    <string name="title_activity_attachments">ASR</string>
+    <string name="title_activity_preview">ASR</string>
+    <string name="title_activity_mini_report">ASR</string>
+    <string name="title_activity_cinbox">ASR</string>
+    <string name="title_activity_full_rep1">ASR</string>
+    <string name="title_activity_cpolice_details">ASR</string>
+    <string name="title_activity_caccident_details">ASR</string>
+    <string name="title_activity_vehicle1_details">ASR</string>
+    <string name="title_activity_vehicle2_details">ASR</string>
+    <string name="title_activity_cinjured">ASR</string>
+    <string name="title_activity_cfeedback">ASR</string>
+    <string name="title_activity_video_image">VideoImage</string>
+
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_upload_files">UploadFiles</string>
+    <string name="title_activity_upload_images">UploadImages</string>
+    <string name="title_activity_view_images">ViewImages</string>
+    <string name="title_activity_fatal_details">FatalDetails</string>
+    <string name="title_activity_cfatal">CFatal</string>
+    <string name="title_activity_upload_gps">UploadGPS</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_more_than_2">More_than_2</string>
+    <string name="title_activity_less_than_3">Less_than_3</string>
+    <string name="title_activity_non_fatal">Non_fatal</string>
+    <string name="title_activity_upload2">UploadActivity2</string>
+    <string name="title_activity_upload_video">UploadVideo</string>
+    <string name="title_activity_upload1">UploadActivity1</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_get_current_gpslocation">GetCurrentGPSLocation</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
